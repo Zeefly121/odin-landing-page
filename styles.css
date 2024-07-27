@@ -97,7 +97,7 @@ a {
 .images-container {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 32px;
 }
 
 .images-container div {
@@ -108,4 +108,28 @@ a {
 
 .images-container div img {
     border-radius: 10px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 50%;
+}
+
+.quote-container p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.quote-container div {
+    text-align: right;
+    font-weight: 900;
+    font-size: 20px;
 }
