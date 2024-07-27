@@ -75,9 +75,37 @@ a {
     gap: 20px;
 }
 
-.hero-image {
+.hero-image img{
     width: 500px;
-    height: 250px;
-    background-color: #6d747d;
+    height: auto;
     flex-shrink: 0;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 0 120px 0;
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.images-container div {
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+
+.images-container div img {
+    border-radius: 10px;
 }
